@@ -1,6 +1,6 @@
 # Semantic Segmentation
 ### Introduction
-In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
+This project labels the pixels of a road in images using a Fully Convolutional Network (FCN).
 
 ![Sample output](./images/sample.png "Sample output")
 
@@ -24,12 +24,3 @@ Run the following command to run the project:
 python main.py
 ```
 **Note** If running this in Jupyter Notebook system messages, such as those regarding test status, may appear in the terminal rather than the notebook.
-
-### Submission
-1. Ensure you've passed all the unit tests.
-2. Ensure you pass all points on [the rubric](https://review.udacity.com/#!/rubrics/989/view).
-3. Submit the following in a zip file.
- - `helper.py`
- - `main.py`
- - `project_tests.py`
- - Newest inference images from `runs` folder
