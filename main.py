@@ -107,7 +107,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
                         correct_label: batch_labels,
                         keep_prob: keep_prob_value,
                         learning_rate: learning_rate_value})
-            print("Epoch", epoch, ", Batch", batch, ", Loss {:.5f}...".format(loss))
+            # print("Epoch", epoch, ", Batch", batch, ", Loss {:.5f}...".format(loss))
         print("Epoch", epoch, ", Loss {:.5f}...".format(loss))
 tests.test_train_nn(train_nn)
 
@@ -115,7 +115,7 @@ tests.test_train_nn(train_nn)
 def run():
     num_classes = 2
     image_shape = (160, 576)
-    batch_size = 1
+    batch_size = 16
     epochs = 20
     data_dir = './data'
     runs_dir = './runs'
